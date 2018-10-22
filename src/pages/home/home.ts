@@ -8,6 +8,10 @@ import { Imagen2Page } from '../imagen2/imagen2';
 import { Bio2Page } from '../bio2/bio2';
 import { Tracks2Page } from '../tracks2/tracks2';
 import { Reseña2Page } from '../reseña2/reseña2';
+import { Reseña3Page } from '../reseña3/reseña3';
+import { Imagen3Page } from '../imagen3/imagen3';
+import { Bio3Page } from '../bio3/bio3';
+import { Tracks3Page } from '../tracks3/tracks3';
 
 @Component({
   selector: 'page-home',
@@ -22,6 +26,10 @@ export class HomePage {
   bioo2= Bio2Page;
   tracks2 = Tracks2Page;
   reseña2= Reseña2Page;
+  reseña3 = Reseña3Page;
+  imagen3 = Imagen3Page;
+  bioo3= Bio3Page;
+  tracks3 = Tracks3Page;
 
   constructor(public navCtrl: NavController) {
 
@@ -52,6 +60,20 @@ export class HomePage {
   }
   rese2(){
     this.navCtrl.push(this.reseña2);
+  }
+
+
+  imagenn3(){
+    this.navCtrl.push(this.imagen3);
+  }
+  bio3(){
+    this.navCtrl.push(this.bioo3);
+  }
+  stargazing1(){
+    this.navCtrl.push(this.tracks3);
+  }
+  rese3(){
+    this.navCtrl.push(this.reseña3);
   }
 
 }
