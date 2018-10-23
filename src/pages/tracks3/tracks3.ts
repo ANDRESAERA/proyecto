@@ -14,6 +14,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'tracks3.html',
 })
 export class Tracks3Page {
+  tracks3 = [
+    "Stargazing 3:57",
+    
+    "It Ain't Me 3:41",
+    
+    "First Time 3:14",
+    
+    "This Town (feat. Sasha Sloan) 3:22",
+    
+    "You're the Best Thing About Me 4:18"]
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
