@@ -12,6 +12,10 @@ import { Reseña3Page } from '../reseña3/reseña3';
 import { Imagen3Page } from '../imagen3/imagen3';
 import { Bio3Page } from '../bio3/bio3';
 import { Tracks3Page } from '../tracks3/tracks3';
+import { Tracks4Page } from '../tracks4/tracks4';
+import { Iamgen4Page } from '../iamgen4/iamgen4';
+import { Bio4Page } from '../bio4/bio4';
+import { Reseña4Page } from '../reseña4/reseña4';
 
 @Component({
   selector: 'page-home',
@@ -30,6 +34,11 @@ export class HomePage {
   imagen3 = Imagen3Page;
   bioo3= Bio3Page;
   tracks3 = Tracks3Page;
+  tracks4 = Tracks4Page;
+  reseña4 = Reseña4Page;
+  imagen4 = Iamgen4Page;
+  bioo4= Bio4Page;
+  
 
   constructor(public navCtrl: NavController) {
 
@@ -75,5 +84,20 @@ export class HomePage {
   rese3(){
     this.navCtrl.push(this.reseña3);
   }
+
+  imagenn4(){
+    this.navCtrl.push(this.imagen4);
+  }
+  bio4(){
+    this.navCtrl.push(this.bioo4);
+  }
+  cloudnine1(){
+    this.navCtrl.push(this.tracks4);
+  }
+  rese4(){
+    this.navCtrl.push(this.reseña4);
+  }
+
+
 
 }
